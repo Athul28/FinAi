@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutChatbot(){
     return(
-        <div className="font-ubuntu p-5 bg-gold font-bold">
+        <div className="p-8 bg-gold font-bold text-[#222831]">
             <hr className='mb-5 border-black ' />
             <p className="text-2xl mb-2">Meet Your Smart Financial Coach: The AI Chatbot that Guides You to Wealth</p>
             <ul className="list-disc list-inside px-3">
