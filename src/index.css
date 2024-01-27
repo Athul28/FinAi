@@ -7,6 +7,9 @@
     .nav-items{
         @apply p-5 hover:underline;
     }
+    .bg-gold{
+        @apply bg-[rgb(255,216,45)];
+    }
 }
 
 .custom-bg{

@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundBlendMode: theme => ({
+        'backdrop-blur': 'blur(2px)',
+      })
+    },
     fontFamily:{
       ubuntu: ['Ubuntu', 'sans-serif']
     }
