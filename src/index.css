@@ -14,3 +14,7 @@
     background-size: cover;
     background-position: center;
 }
+
+.chatbot-bg{
+    background-image: url('./assets/chat-bot.png');
+}
