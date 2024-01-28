@@ -6,13 +6,13 @@ This is a Vite+React project that uses Tailwind CSS for styling.
 
 To get started with this project, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/Athul28/FinAi.git
 
-2. Navigate to the project directory:
+2. Navigate to the project directory: cd finai
 
 3. Install the dependencies:
 
-4. Start the development server:
+4. Start the development server: npm run dev
 
 This will start the development server and open the project in your default web browser.
 
