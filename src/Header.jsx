@@ -13,7 +13,7 @@ function Header() {
   return (
     <header className="custom-bg">
       <div className="bg-[rgba(0,0,0,0.44)]">
-        <nav className="p-5 justify-between text-white bg-[rgba(0,0,0,0.8)] w-full fixed md:flex max-md:backdrop-blur">
+        <nav className="p-5 justify-between text-white bg-[rgba(0,0,0,0.8)] w-full fixed md:flex max-md:backdrop-blur z-10">
           <p className="font-bold text-xl">FinAI</p>
           <div
             onClick={() => setOpen(!open)}
@@ -22,9 +22,9 @@ function Header() {
             <ion-icon name={open ? "close" : "menu"}></ion-icon>
           </div>
           <ul
-            className={`md:flex md:items-center text-center max-md:bg-[rgba(0,0,0,0.8)] max-md:backdrop-blur ${
+            className={`md:flex md:items-center text-center max-md:bg-[rgba(0,0,0,0.8)] ${
               open ? "top-[68px]" : "top-[-490px]"
-            } md:static fixed w-full md:max-w-[400px] max-md:left-0 overflow-hidden transition-all duration-500 ease-in`}
+            } md:static fixed w-full md:max-w-[400px] max-md:left-0 max-md:backdrop-blur overflow-hidden transition-all duration-500 ease-in`}
           >
             <li className="max-md:m-3">
               <a className="nav-items" href={links.home}>
