@@ -1,8 +1,63 @@
-# React + Vite
+# FinAI: Vite+React Project with Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Vite+React project that uses Tailwind CSS for styling.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+
+2. Navigate to the project directory:
+
+3. Install the dependencies:
+
+4. Start the development server:
+
+This will start the development server and open the project in your default web browser.
+
+## Making Changes
+
+To make changes to the project, you can edit the `src` directory. This directory contains all the React components and Tailwind CSS styles.
+
+### Adding a New Component
+
+To add a new React component, follow these steps:
+
+1. Create a new file in the `src/components` directory.
+
+2. Write your component using JSX syntax.
+
+3. Import your component in the `src/App.js` file and use it in the render method.
+
+4. Restart the development server to see your changes.
+
+### Adding a New Style
+
+To add a new Tailwind CSS style, follow these steps:
+
+1. Add your style to the `src/index.css` file.
+
+2. Make sure your style is prefixed with `@apply` and includes the appropriate Tailwind CSS classes.
+
+3. Restart the development server to see your changes.
+
+## Building for Production
+
+To build the project for production, follow these steps:
+
+1. Build the project:
+
+This will create a `dist` directory with the compiled and optimized production code.
+
+2. Serve the production build:
+
+This will start a production server and open the project in your default web browser.
+
+## Resources
+
+For more information about Vite, React, and Tailwind CSS, check out the following resources:
+
+- [Vite documentation](https://vitejs.dev/guide/)
+- [React documentation](https://reactjs.org/docs/getting-started.html)
+- [Tailwind CSS documentation](https://tailwindcss.com/docs)
