@@ -3,6 +3,8 @@ import ChatButButton from "./ChatBotButton"
 import AboutChatbot from "./AboutChatbot"
 import AboutUs from "./assets/AboutUs"
 import Footer from "./Footer"
+import Quotes from "./Quotes"
+import Articles from "./articles"
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
     <div className="bg-[#FFF7D4] font-ubuntu">
       <Header />
       <ChatButButton />
+      <Quotes />
+      <Articles />
       <AboutChatbot />
       <AboutUs />
       <Footer />

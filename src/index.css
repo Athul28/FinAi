@@ -10,6 +10,18 @@
     .bg-gold{
         @apply bg-[rgb(255,216,45)];
     }
+    .bg-dark{
+        @apply bg-[#222831];
+    }
+    .text-dark{
+        @apply text-[#222831]
+    }
+    .card{
+        @apply bg-gray-800 shadow-sm hover:bg-gray-700 hover:shadow-md hover:shadow-black shadow-black p-4 rounded-lg;
+    }
+    .card-button{
+        @apply bg-slate-300 text-black text-dark p-2 rounded-lg mt-2 shadow-sm shadow-black;
+    }
 }
 
 .custom-bg{
@@ -21,3 +33,4 @@
 .chatbot-bg{
     background-image: url('./assets/chat-bot.png');
 }
+

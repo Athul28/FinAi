@@ -22,7 +22,7 @@ function Header() {
             <ion-icon name={open ? "close" : "menu"}></ion-icon>
           </div>
           <ul
-            className={`md:flex md:items-center max-md:backdrop-blur text-center max-md:bg-[rgba(0,0,0,0.8)] ${
+            className={`md:flex md:items-center text-center max-md:bg-[rgba(0,0,0,0.8)] max-md:backdrop-blur ${
               open ? "top-[68px]" : "top-[-490px]"
             } md:static fixed w-full md:max-w-[400px] max-md:left-0 overflow-hidden transition-all duration-500 ease-in`}
           >
