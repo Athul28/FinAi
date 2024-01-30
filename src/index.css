@@ -7,6 +7,9 @@
     .nav-items{
         @apply p-5 hover:underline;
     }
+    .menu-items{
+        @apply md:flex md:items-center text-center max-md:bg-[rgba(0,0,0,0.8)] md:static max-md:pb-7 max-md:pt-3  fixed w-full md:max-w-[400px] max-md:left-0 max-md:bg-black overflow-hidden transition-all duration-500 ease-in;
+    }
     .bg-gold{
         @apply bg-[rgb(255,216,45)];
     }
@@ -23,7 +26,7 @@
         @apply bg-slate-300 text-black text-dark p-2 rounded-lg mt-2 shadow-sm shadow-black hover:font-bold relative;
     }
     .about-aibot-list{
-        @apply bg-gray-800 my-2 text-white p-2 rounded-r-xl font-thin;
+        @apply bg-gray-800 my-2 text-white p-5 rounded-r-xl font-thin;
     }
 }
 

@@ -5,6 +5,7 @@ import AboutUs from "./AboutUs"
 import Footer from "./Footer"
 import Quotes from "./Quotes"
 import Articles from "./articles"
+import CompoundInterest from "./CompoundInterest"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ChatButButton />
       <Quotes />
       <Articles />
+      <CompoundInterest />
       <AboutChatbot />
       <AboutUs />
       <Footer />
