@@ -9,7 +9,7 @@ function Articles() {
 
   return (
     <div>
-      <div class="grid grid-cols-3 gap-4 content-cente mx-5 my-4 text-white max-sm:grid-cols-1 text-center">
+      <div class="grid grid-cols-3 gap-4 content-cente mx-5 my-4 text-white max-sm:grid-cols-1 text-center" id="articles">
         <div class="card">
           <img src={Book1} className="h-[250px] m-auto p-3" alt="psycology of money" />
           <p class="">Summary of the psycology of money</p>

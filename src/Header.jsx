@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 function Header() {
   const links = {
-    home: "#",
+    home: "/",
     chatbot: "https://botpress.com/",
-    articles: "#",
-    aboutus: "#",
+    articles: "#articles",
+    aboutus: "#aboutus",
   };
 
   const [open, setOpen] = useState(false);

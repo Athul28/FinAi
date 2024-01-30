@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutUs(){
     return(
-        <div className="p-8 text-center text-[#222831]">
+        <div className="p-8 text-center text-[#222831]" id="aboutus">
             <p className="font-bold text-xl mb-2">Invest Smarter, Reach Goals Faster. AI guides your money, you enjoy the journey</p>
             <ul className='text-lg'>
                 <li>AI understands your income, expenses, and dreams</li>
