@@ -19,7 +19,6 @@ function App() {
       <AboutUs />
       <Footer />
     </div>
-
     </>
   )
 }
