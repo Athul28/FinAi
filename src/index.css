@@ -11,7 +11,7 @@
         @apply md:flex md:items-center text-center max-md:bg-[rgba(0,0,0,0.8)] md:static max-md:pb-7 max-md:pt-3  fixed w-full md:max-w-[400px] max-md:left-0 max-md:bg-black overflow-hidden transition-all duration-500 ease-in;
     }
     .bg-gold{
-        @apply bg-[rgb(255,216,45)];
+        @apply bg-[#ffd82d];
     }
     .bg-dark{
         @apply bg-[#222831];
