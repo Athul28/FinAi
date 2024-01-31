@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Header() {
   const links = {
     home: "/",
-    chatbot: "https://botpress.com/",
+    chatbot: "https://mediafiles.botpress.cloud/c077c495-b683-45ce-a6b8-9c0985245bb2/webchat/bot.html",
     articles: "#articles",
     aboutus: "#aboutus",
   };
