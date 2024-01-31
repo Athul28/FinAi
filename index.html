@@ -11,5 +11,26 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+    <script>
+      window.botpressWebChat.init({
+          "composerPlaceholder": "Chat with FinAi Bot",
+          "botConversationDescription": "This is a financial advisor bot",
+          "botId": "c077c495-b683-45ce-a6b8-9c0985245bb2",
+          "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+          "messagingUrl": "https://messaging.botpress.cloud",
+          "clientId": "c077c495-b683-45ce-a6b8-9c0985245bb2",
+          "webhookId": "35523f61-4e31-4cc3-937b-b0bf18a98eac",
+          "lazySocket": true,
+          "themeName": "prism",
+          "botName": "FinAi Bot",
+          "avatarUrl": "https://raw.githubusercontent.com/Athul28/FinAi/main/src/assets/chat-bot2.png",
+          "website": "https://fin-ai-tan.vercel.app/",
+          "frontendVersion": "v0",
+          "useSessionStorage": true,
+          "theme": "prism",
+          "themeColor": "#2563eb"
+      });
+    </script>
   </body>
 </html>

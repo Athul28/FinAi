@@ -1,5 +1,5 @@
 import Header from "./Header"
-import ChatButButton from "./ChatBotButton"
+import ChatBotButton from "./ChatBotButton"
 import AboutChatbot from "./AboutChatbot"
 import AboutUs from "./AboutUs"
 import Footer from "./Footer"
@@ -12,7 +12,6 @@ function App() {
     <>
     <div className="bg-[#FFF7D4] font-ubuntu">
       <Header />
-      <ChatButButton />
       <Quotes />
       <Articles />
       <CompoundInterest />
