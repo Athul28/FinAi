@@ -49,10 +49,10 @@ function Header() {
           </ul>
         </nav>
         <div className="h-[680px] p-10 text-white felx-col justify-center items-center">
-          <p className="text-center text-7xl font-bold mt-[200px]">
+          <p className="text-center text-7xl font-bold mt-[250px] [text-shadow:5px_5px_2px_var(--tw-shadow-color)] shadow-black max-sm:text-6xl">
             Welcome to FinAi
           </p>
-          <p className="text-center mt-5 text-2xl">
+          <p className="text-center mt-5 text-2xl [text-shadow:1px_2px_1px_var(--tw-shadow-color)] shadow-black max-sm:text-xl">
             a personalized investment management platform
           </p>
         </div>

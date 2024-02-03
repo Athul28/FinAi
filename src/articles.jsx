@@ -6,6 +6,8 @@ import Book3 from "./assets/book3.jpg"
 function Articles() {
 
     const sitelink1=["https://calvinrosser.com/notes/psychology-of-money-morgan-housel/"];
+    const sitelink2=["https://calvinrosser.com/notes/rich-dad-poor-dad/"];
+    const sitelink3=["https://calvinrosser.com/notes/simple-path-to-wealth-jl-collins/"];
 
   return (
     <div>

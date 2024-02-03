@@ -1,42 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .nav-items{
-        @apply p-5 hover:underline;
-    }
-    .menu-items{
-        @apply md:flex md:items-center text-center max-md:bg-[rgba(0,0,0,0.8)] md:static max-md:pb-7 max-md:pt-3  fixed w-full md:max-w-[400px] max-md:left-0 max-md:bg-black overflow-hidden transition-all duration-500 ease-in;
-    }
-    .bg-gold{
-        @apply bg-[#ffd82d];
-    }
-    .bg-dark{
-        @apply bg-[#222831];
-    }
-    .text-dark{
-        @apply text-[#222831]
-    }
-    .card{
-        @apply bg-gray-800 shadow-sm hover:shadow-md hover:shadow-black shadow-black p-4 rounded-lg max-sm:w-[350px] m-auto h-[380px];
-    }
-    .card-button{
-        @apply bg-slate-300 text-black text-dark p-2 rounded-lg mt-2 shadow-sm shadow-black hover:font-bold relative;
-    }
-    .about-aibot-list{
-        @apply bg-gray-800 my-2 text-white p-5 rounded-r-xl font-thin;
-    }
+@layer components {
+  .nav-items {
+    @apply p-5 hover:underline;
+  }
+  .menu-items {
+    @apply md:flex md:items-center text-center max-md:bg-[rgba(0,0,0,0.8)] md:static max-md:pb-7 max-md:pt-3  fixed w-full md:max-w-[400px] max-md:left-0 max-md:bg-black overflow-hidden transition-all duration-500 ease-in;
+  }
+  .bg-gold {
+    @apply bg-[#ffd82d];
+  }
+  .bg-dark {
+    @apply bg-[#222831];
+  }
+  .text-dark {
+    @apply text-[#222831];
+  }
+  .card {
+    @apply bg-gray-800 shadow-sm hover:shadow-lg hover:shadow-black shadow-black p-4 rounded-lg max-sm:w-[300px] m-auto h-[380px];
+  }
+  .card-button {
+    @apply bg-slate-300 text-black text-dark p-2 rounded-lg mt-2 shadow-sm shadow-black hover:font-bold relative;
+  }
+  .about-aibot-list {
+    @apply bg-gray-800 my-2 text-white p-5 rounded-r-xl font-thin;
+  }
 }
 
-.custom-bg{
-    background-image: url('./assets/bg.jpg');
-    background-size: cover;
-    background-position: center;
+.custom-bg {
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.chatbot-bg{
-    background-image: url('./assets/chat-bot.png');
+.chatbot-bg {
+  background-image: url("./assets/chat-bot.png");
 }
-
