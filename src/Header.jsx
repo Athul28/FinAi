@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <header className="custom-bg">
-      <div className="bg-[rgba(0,0,0,0.44)]">
+      <div className="bg-[rgba(0,0,0,0.7)] h-[750px]">
         <nav className="px-5 py-3 justify-between text-white bg-[rgba(0,0,0,0.8)] w-full fixed md:flex md:backdrop-blur z-10 max-md:bg-black ">
           <p className="font-bold text-xl my-auto">FinAI</p>
           <div
@@ -48,8 +48,8 @@ function Header() {
             </li>
           </ul>
         </nav>
-        <div className="h-[680px] p-10 text-white felx-col justify-center items-center">
-          <p className="text-center text-7xl font-bold mt-[250px] [text-shadow:5px_5px_2px_var(--tw-shadow-color)] shadow-black max-sm:text-6xl">
+        <div className="h-[680px] p-10 text-white justify-center items-center">
+          <p className="text-center text-7xl font-bold mt-[250px] max-sm:mt-[200px] [text-shadow:5px_5px_2px_var(--tw-shadow-color)] shadow-black max-sm:text-5xl">
             Welcome to FinAi
           </p>
           <p className="text-center mt-5 text-2xl [text-shadow:1px_2px_1px_var(--tw-shadow-color)] shadow-black max-sm:text-xl">

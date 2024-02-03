@@ -20,7 +20,7 @@
     @apply text-[#222831];
   }
   .card {
-    @apply bg-gray-800 shadow-sm hover:shadow-lg hover:shadow-black shadow-black p-4 rounded-lg max-sm:w-[300px] m-auto h-[380px];
+    @apply bg-gray-800 shadow-sm hover:shadow-lg hover:shadow-black shadow-black p-4 rounded-lg max-sm:w-[300px] m-auto h-[380px] max-[340px]:w-[230px];
   }
   .card-button {
     @apply bg-slate-300 text-black text-dark p-2 rounded-lg mt-2 shadow-sm shadow-black hover:font-bold relative;
