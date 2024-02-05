@@ -23,7 +23,7 @@ function AboutChatbot() {
           bot creates a tailored investment plan
         </li>
       </ul>
-      <p className="">Click on the chat bot icon to get started</p>
+      <p className="">Click on the chat bot icon and send a <span className="font-bold text-xl">Hello!</span> to get started</p>
       <hr className="mt-5 border-black" />
     </div>
   );
