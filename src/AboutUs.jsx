@@ -11,11 +11,11 @@ function AboutUs(){
             </ul>
             <hr className='border-[#222831] w-[100px] mx-auto border-dotted my-[25px] border-t-8' />
             <div>
-                <p className='font-bold md:text-xl mb-2'>Our Team</p>
-                <p>Athul D Bhandary</p>
-                <p>Devam Mavani</p>
-                <p>Raksha Kamath B</p>
-                <p>Swathi R Kini</p>
+                <p className='font-bold text-xl mb-2 underline'>Our Team</p>
+                <p className='md:text-lg font-semibold'>Athul D Bhandary</p>
+                <p className='md:text-lg font-semibold'>Devam Mavani</p>
+                <p className='md:text-lg font-semibold'>Raksha Kamath B</p>
+                <p className='md:text-lg font-semibold'>Swathi R Kini</p>
             </div>
         </div>
     );
