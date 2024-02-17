@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <header className="custom-bg">
-      <div className="bg-[rgba(0,0,0,0.7)] h-[750px]">
+      <div className="bg-[rgba(0,0,0,0.6)] h-[750px]">
         <nav className="px-5 py-3 justify-between text-white bg-[rgba(0,0,0,0.8)] w-full fixed md:flex md:backdrop-blur z-10 max-md:bg-black ">
           <p className="font-bold text-xl my-auto">FinAI</p>
           <div
